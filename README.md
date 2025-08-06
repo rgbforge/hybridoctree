@@ -11,7 +11,7 @@ make
 
 mv ../inputs/model.* .
 
-./Hexgen ./model.stl
+./HexGen ./model.stl
 
 
 
