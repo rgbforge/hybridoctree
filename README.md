@@ -1,3 +1,17 @@
+# build/test
+git clone https://github.com/rgbforge/hybridoctree.git
+
+mkdir build && cd build
+
+cmake ..
+
+make
+
+mv ../inputs/model.* .
+
+./Hexgen ./model.stl
+
+
 
 # Kokkos HybridOctree_Hex
 A fork of [HybridOctree_Hex](https://github.com/CMU-CBML/HybridOctree_Hex) focused on developing a kokkos backend
