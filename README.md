@@ -1,6 +1,8 @@
 # build/test
 git clone https://github.com/rgbforge/hybridoctree.git
 
+cd hybridoctree
+
 mkdir build && cd build
 
 cmake ..
